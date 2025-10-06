@@ -1,11 +1,9 @@
 import pageSchema from "@/lib/sanity/schemas/page-schema";
 import imageAssetSchema from "@/lib/sanity/schemas/image-asset-schema";
-
-//import project from "@/lib/sanity/schemas/project-schema";
-//import assetCategory from "@/lib/sanity/schemas/asset-category-schema";
+import institutionSchema from "@/lib/sanity/schemas/institution-schema";
 
 
 
-const schemas = [ pageSchema, imageAssetSchema ];
+const schemas = [ pageSchema, imageAssetSchema, institutionSchema ];
 
 export default schemas;
